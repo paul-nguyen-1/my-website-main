@@ -61,18 +61,18 @@ export default function Home() {
   }, [IsBlackListEmpty]); // Empty dependency array ensures that this effect runs once when the component mounts
 
   // this useEffect will be called when userData is set
-  useEffect(() => {
-    // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
-    if (!IsBlackListEmpty) {
-      if (userData) {
-        // check if the user country is in the blackList
-        if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
-          // set isBlackListed to true
-          setIsBlackListed(true);
-        }
-      }
-    }
-  }, [IsBlackListEmpty, userData]);
+  // useEffect(() => {
+  //   // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
+  //   if (!IsBlackListEmpty) {
+  //     if (userData) {
+  //       // check if the user country is in the blackList
+  //       if (process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(userData.country)) {
+  //         // set isBlackListed to true
+  //         setIsBlackListed(true);
+  //       }
+  //     }
+  //   }
+  // }, [IsBlackListEmpty, userData]);
 
   useEffect(() => {
     // remove the interval Cookie timer setter when
@@ -107,8 +107,8 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    title: "Paul Nguyen - Software Engineer",
+    description: `Currently a Software Engineer Intern @ Summersalt. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };

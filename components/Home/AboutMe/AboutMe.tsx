@@ -29,9 +29,8 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
+                Hello! My name is Paul, and I am a passionate software engineer and problem solver, dedicated to
+                creating impactful codes that thrive on the internet. I am currently enrolled in Oregon State University working on a post-bacceulerate for computer science. Little did I know that programming skills
                 would become essential in pursuing this interest, marking the start of my programming journey.
               </span>
             </div>
