@@ -42,7 +42,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a href="https://www.ens.vision" target={"_blank"} rel="noreferrer">
+              <a href="https://meal-hub.vercel.app/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -173,7 +173,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"https://captcha-authentication.vercel.app/"}>
+              <Link href={"https://captcha-authentication.vercel.app/"} target={"_blank"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -217,13 +217,14 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Algorithms</span>
-                <span className="pr-4 z-10">Framer Motion</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
                 <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">NextJS</span>
+                <span className="pr-4 z-10">Iron-session</span>
+                <span className="pr-4 z-10">OAuth</span>
+                <span className="pr-4 z-10">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/paul-nguyen-1/captcha-authentication" />
+                <GithubIcon link="https://github.com/paul-nguyen-1/captcha-authentication" target={"_blank"}/>
                 <ExternalLink url={"https://captcha-authentication.vercel.app/"} router={router} />
               </div>
             </div>
