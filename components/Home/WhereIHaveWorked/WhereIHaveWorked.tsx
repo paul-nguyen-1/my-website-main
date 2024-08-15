@@ -32,7 +32,7 @@ export default function WhereIHaveWorked() {
       //   return <SuperBerry />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("Summersalt");
+  const [DescriptionJob, setDescriptionJob] = React.useState("LucidMotors");
   return (
     <div
       data-aos="fade-up"
