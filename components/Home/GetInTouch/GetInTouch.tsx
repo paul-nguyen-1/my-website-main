@@ -19,7 +19,7 @@ export default function GetInTouch() {
       Currently looking for new jobs opportunities or to network within this industry, so my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
       </p>
       <div className="pt-4">
-        <a href="mailto:paul121596@icloud.com" target={"_blank"} rel="noreferrer">
+        <a href="mailto:paul.nguyen.swe@gmail.com" target={"_blank"} rel="noreferrer">
           <button
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded "

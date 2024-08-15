@@ -108,7 +108,7 @@ export default function Home() {
   console.log("website is rendering...");
   const meta = {
     title: "Paul Nguyen - Software Engineer",
-    description: `Currently a Software Engineer Intern @ Summersalt. Get in touch with me to know more.`,
+    description: `Currently a Software Engineer Intern @ Lucid Motors. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };

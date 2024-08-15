@@ -2,23 +2,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function Summersalt() {
+export default function LucidMotors() {
   const tasks = [
     {
-      text: "Refactored jQuery and React legacy code, reducing tech debt and optimizing render performance by 25%",
-      keywords: ["jQuery", "React"],
+      text: "Developed scalable components for on-boarding workflows and supply chain tooling within the in-house portal, streamlining deprecated code and improving maintainability using React and TypeScript",
+      keywords: ["TypeScript", "React"],
     },
     {
-      text: "Implemented multiple features for products, collections items, and promotions within the application using TypeScript and Remix, contributing to an increase of $35,000+ in monthly revenue",
-      keywords: ["TypeScript", "Remix"],
+      text: "Integrated API calls using NestJS, MongoDB, and AWS S3 Buckets to seamlessly update supplier data for the internal contract management system (Agiloft)",
+      keywords: ["NestJS", "MongoDB", "AWS S3 Buckets"],
     },
     {
-      text: "Improved CI/CD workflow utilizing Github Actions with Cypress, creating automated report with test cases that displays the status of all results on the build pipeline, minimizing code regression on production",
-      keywords: ["Github Actions", "Cypress"],
+      text: "Improved unit test coverage using Jest for critical client facing features, reducing code-regression on the back-end",
+      keywords: ["Jest"],
     },
     {
-      text: "Assisted with developing GraphQL queries, resulting in accurate and improved data retrieval efficiency",
-      keywords: ["GraphQL"],
+      text: "Designed a data-driven automated tool for on-boarding new suppliers, significantly decreasing the manual process from an estimated average of 35 minutes to <3 minutes using Playwright",
+      keywords: ["Playwright"],
     },
   ];
 
@@ -28,17 +28,17 @@ export default function Summersalt() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer Intern<span className="text-AAsecondary"> @ SUMMERSALT</span>
+            Software Engineer Intern<span className="text-AAsecondary"> @ Lucid Motors</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">May 2023 - May 2024</span>
+          <span className="font-mono text-xs text-gray-500">May 2024 - Present</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.summersalt.com/", "_blank")}
+            onClick={() => window.open("https://www.lucidmotors.com/", "_blank")}
           >
-            https://www.summersalt.com/
+            https://www.lucidmotors.com/
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
